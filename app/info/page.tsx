@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import laptop from '../assets/info-lap.webp'
+// import laptop from '../assets/info-lap.webp'
 import ecommerce from '../assets/e-commerce.svg'
 
 import SimpleButton from '../components/SimpleButton'

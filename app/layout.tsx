@@ -1,8 +1,9 @@
 import './globals.css'
-import Image from 'next/image'
+import React from 'react'
+// import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Navbar from './components/Navbar'
-import topPeak from './assets/wave-haikei.svg'
+// import topPeak from './assets/wave-haikei.svg'
 
 const inter = Inter({ subsets: ['latin'] })
 

@@ -1,8 +1,8 @@
 "use client"
 
 import { useState } from 'react'
-import Badge from './Badge'
-import ToastSuccess from './ToastSuccess'
+// import Badge from './Badge'
+// import ToastSuccess from './ToastSuccess'
 
 export default function ContactForm() {
     const [fullname, setFullname] = useState("");
@@ -94,7 +94,7 @@ export default function ContactForm() {
                   error.map((e) => (
                     <div key={e}
                       className={`${
-                        success ? "text-white bg-green-700 rounded-lg" : "text-white bg-red-800 "
+                        success ? "text-white bg-green-700 rounded-lg" : "text-white bg-red-800"
                       } px-5 py-2`}
                     >
                       {e}
