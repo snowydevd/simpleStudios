@@ -3,7 +3,12 @@ import Contact from "@/app/models/contact";
 import { NextResponse } from "next/server";
 import mongoose from "mongoose";
 
-export async function POST(req) {
+interface Props{
+  req:any
+  json:any
+}
+
+export async function POST(req: Props) {
   const { fullname, business, email, message } = await req.json();
 
   try {
